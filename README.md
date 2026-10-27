@@ -1,2 +1,0 @@
-# sumo
-Prueba 1
