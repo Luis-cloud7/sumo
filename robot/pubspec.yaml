@@ -1,0 +1,21 @@
+name: tlacuache_sumo
+description: Control remoto UDP para el robot de sumo TLACUACHE (ESP32 en modo Access Point).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  udp: ^5.0.3            # Socket UDP (envío y recepción de telemetría)
+  speech_to_text: ^7.0.0 # Comandos de voz de emergencia
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
